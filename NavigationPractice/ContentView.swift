@@ -11,12 +11,11 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("This is the root view.  🌳")
+                Text("This is the home view! 🏡")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .multilineTextAlignment(.center)
-                
-                NavigationLink(destination: SecondView()
+/*                NavigationLink(destination: SecondView()
                 ) {
                     Text("Click me!")
                 }
@@ -37,6 +36,19 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .padding()
+ */
+                NavigationLink(destination: AboutView()) {
+                    Text("Click here for the About Me Page!")
+                }
+                
+                NavigationLink(destination: ContactView()) {
+                    Text("Click here for the Contact Me Page!")
+                }
+                
+                NavigationLink(destination: HelpView()) {
+                    Text("Click here for the Help Page!")
+                }
+                
             }
             .padding()
             .navigationTitle(Text("Home"))

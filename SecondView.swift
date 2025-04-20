@@ -5,7 +5,7 @@
 //  Created by Scholar on 4/20/25.
 //
 
-import SwiftUI
+/*import SwiftUI
 
 struct SecondView: View {
     var body: some View {
@@ -20,3 +20,4 @@ struct SecondView: View {
 #Preview {
     SecondView()
 }
+*/
